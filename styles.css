@@ -2,15 +2,16 @@
   font-family: 'Quicksand', sans-serif;
 }
 
+/* You can completely change the color scheme! Go to https://uigradients.com for gradient inspiration!! */
 body {
-  background-color: #3b4071;
-  background: linear-gradient(45deg,  #362256, #3b4071);
+  background-color: #fd746c;
+  background: linear-gradient(45deg,  #fd746c, #ff9068);
   width: 80%;
   margin: auto;
 }
 
 h1 {
-  color: #d2d5e8;
+  color: #2B2A2A;
   text-align: center;
   padding: 15px;
   font-size: 200%;
@@ -18,7 +19,7 @@ h1 {
 
 form {
   margin-bottom: 20px;
-  background-color: #656794;
+  background-color: #FFDCDA;
   margin: auto;
   display: flex;
   padding: 10px;
@@ -28,7 +29,7 @@ form {
 }
 
 p {
-  color: #fff;
+  color: #2B2A2A;
   width: 55%;
   padding-right: 15px;
 }
@@ -52,11 +53,11 @@ p {
 }
 
 #input-field::placeholder {
-  color: #3b4071;
+  color: #CFCECF;
 }
 
 .submit-btn {
-  background-color: #3b4071;
+  background-color: #fd746c;
   color: #fff;
   transition: all 0.5s;
   text-transform: uppercase;
@@ -65,41 +66,54 @@ p {
 }
 
 .submit-btn:hover {
-  background-color: #362256;
+  background-color: #DD665F;
   cursor: pointer;
 }
 
-#hedgie-images {
+/* The code below sets the data up in a 2x2 square, like the hedgehog page */
+#data-container {
   margin: auto;
   width: 700px;
   display: grid;
   grid-template-columns: 350px 350px;
   grid-template-rows: 350px 350px;
-  grid-template-areas: "hedgie1 hedgie2" "hedgie3 hedgie4";
+  grid-template-areas: "image1 image2" "image3 image4";
+  background-color: #EDF4F1;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+#image1, #image2, #image3, #image4 {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+#image1 {
+  grid-area: image1;
+}
+#image2 {
+  grid-area: image2;
+}
+#image3 {
+  grid-area: image3;
+}
+#image4 {
+  grid-area: image4;
+}
+
+/* The code below sets the data up in rows. This might be more appropriate for you if you are pulling in words/numbers rather than images. It is commented out right now; if you want rows, you should UNcomment out the following code and COMMENT out the code above this, for the 2x2. */
+
+/* #data-container {
+  margin: auto;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
   background-color: #EDF4F1;
   padding: 10px;
   margin-top: 25px;
   margin-bottom: 40px;
 }
 
-#hedgie1, #hedgie2, #hedgie3, #hedgie4 {
-  width: 350px;
-  height: 350px;
-  object-fit: cover;
-}
-
-#hedgie1 {
-  grid-area: hedgie1;
-}
-
-#hedgie2 {
-  grid-area: hedgie2;
-}
-
-#hedgie3 {
-  grid-area: hedgie3;
-}
-
-#hedgie4 {
-  grid-area: hedgie4;
-}
+#image1, #image2, #image3, #image4 {
+  padding: 10px;
+} */

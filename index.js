@@ -14,7 +14,7 @@ button.addEventListener("click", function(event) {
 })
 
 function getImages(keyword) {
-  button.value = "Looking for photos..."
+  button.value = "Working on it..."
 
   fetch(`http://localhost:3000/hedgie/${keyword}`)
     .then(response => response.json())
