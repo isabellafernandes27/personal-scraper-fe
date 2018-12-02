@@ -4,14 +4,14 @@
 
 /* You can completely change the color scheme! Go to https://uigradients.com for gradient inspiration!! */
 body {
-  background-color: #fd746c;
-  background: linear-gradient(45deg,  #fd746c, #ff9068);
+  background-color: #00FFFF;
+  background: linear-gradient(45deg, #0000FF, #0000FF);
   width: 80%;
   margin: auto;
 }
 
 h1 {
-  color: #2B2A2A;
+  color: #000000;
   text-align: center;
   padding: 15px;
   font-size: 200%;
@@ -19,7 +19,7 @@ h1 {
 
 form {
   margin-bottom: 20px;
-  background-color: #FFDCDA;
+  background-color: #00FFFF;
   margin: auto;
   display: flex;
   padding: 10px;
@@ -29,7 +29,7 @@ form {
 }
 
 p {
-  color: #2B2A2A;
+  color: #000000;
   width: 55%;
   padding-right: 15px;
 }
@@ -78,7 +78,7 @@ p {
   grid-template-columns: 350px 350px;
   grid-template-rows: 350px 350px;
   grid-template-areas: "image1 image2" "image3 image4";
-  background-color: #EDF4F1;
+  background-color: #0000FF;
   padding: 10px;
   margin-top: 25px;
   margin-bottom: 40px;
