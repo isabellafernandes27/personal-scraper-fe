@@ -14,9 +14,9 @@ button.addEventListener("click", function(event) {
 })
 
 function getImages(keyword) {
-  button.value = "Working on it..."
+  button.value = `Working on it... ${keyword}`
 
-  fetch(`http://localhost:3000/personal-endpoint`)
+  fetch(`http://localhost:3000/history/${keyword}`)
     .then(response => response.json())
     .then(images => updateImages(images))
     .then(() => button.value = "Get My Info")
