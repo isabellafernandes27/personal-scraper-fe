@@ -4,8 +4,8 @@
 
 /* You can completely change the color scheme! Go to https://uigradients.com for gradient inspiration!! */
 body {
-  background-color: #00FFFF;
-  background: linear-gradient(45deg, #0000FF, #0000FF);
+  background-color: #000000;
+  background: linear-gradient(45deg, #ff9999, #ff9999);
   width: 80%;
   margin: auto;
 }
@@ -19,7 +19,7 @@ h1 {
 
 form {
   margin-bottom: 20px;
-  background-color: #00FFFF;
+  background-color: #311D00;
   margin: auto;
   display: flex;
   padding: 10px;
@@ -29,7 +29,7 @@ form {
 }
 
 p {
-  color: #000000;
+  color: #FFFFFF;
   width: 55%;
   padding-right: 15px;
 }
@@ -53,11 +53,11 @@ p {
 }
 
 #input-field::placeholder {
-  color: #CFCECF;
+  color: #000000;
 }
 
 .submit-btn {
-  background-color: #fd746c;
+  background-color: #ff9999;
   color: #fff;
   transition: all 0.5s;
   text-transform: uppercase;
@@ -78,7 +78,7 @@ p {
   grid-template-columns: 350px 350px;
   grid-template-rows: 350px 350px;
   grid-template-areas: "image1 image2" "image3 image4";
-  background-color: #0000FF;
+  background-color: #ff9999;
   padding: 10px;
   margin-top: 25px;
   margin-bottom: 40px;
